@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobby1983</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ffff;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            position: relative;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            margin: 1em 0;
+        }
+        .social-links a {
+            color: #00ffff;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #0077ff;
+        }
+        .glitch {
+            color: #00ffff;
+            font-size: 3em;
+            position: relative;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% {
+                clip: rect(24px, 9999px, 75px, 0);
+            }
+            20% {
+                clip: rect(15px, 9999px, 30px, 0);
+                transform: skew(0.3deg);
+            }
+            40% {
+                clip: rect(12px, 9999px, 60px, 0);
+                transform: skew(0.6deg);
+            }
+            60% {
+                clip: rect(24px, 9999px, 40px, 0);
+                transform: skew(0.1deg);
+            }
+            80% {
+                clip: rect(30px, 9999px, 70px, 0);
+                transform: skew(0.5deg);
+            }
+            100% {
+                clip: rect(20px, 9999px, 60px, 0);
+                transform: skew(0.4deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glitch">Tobby1983</h1>
+    <ul class="social-links">
+        <li><a href="https://twitter.com/Tobby1983x" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/tobby1983x/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@tobby1983" target="_blank">Youtube</a></li>
+        <li><a href="https://www.twitch.tv/tobby1983" target="_blank">Twitch</a></li>
+    </ul>
+</body>
+</html>
